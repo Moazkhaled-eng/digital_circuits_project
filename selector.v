@@ -3,6 +3,8 @@ module selectors (
     output wire [1:0] S
 );
 
+
+//this is just to create some logic levels for testing purposes
 reg ored_output;
 reg noted_input[1:0];
 reg noted_output1;
